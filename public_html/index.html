@@ -248,55 +248,271 @@
     </section>
     <!-- End of Sectoin -->
 
-    <!-- Portfolio section -->
-    <section id="portfolio" class="section">
+    <section id="tasks" class="section">
       <div class="container text-center">
-        <h6 class="subtitle">Portfolio</h6>
-        <h6 class="section-title mb-4">Check My Wonderful Works</h6>
+        <h6 class="subtitle">Tasks</h6>
+        <h6 class="section-title mb-4">My Assignments</h6>
         <p class="mb-5 pb-4">
-          Ada beberapa projek yg saya kerjakan pada semester ini
-          <br />
-          Diantaranya addalah
+          Berikut adalah daftar tugas saya yang terbagi dalam beberapa kategori.
+          Gunakan filter untuk menampilkan tugas sesuai kategori.
         </p>
 
-        <div class="row">
-          <div class="col-sm-4">
+        <!-- Filter Buttons -->
+        <div class="btn-group mb-4" role="group" aria-label="Task Filter">
+          <button class="btn btn-primary filter-btn" data-filter="all">
+            All
+          </button>
+          <button class="btn btn-secondary filter-btn" data-filter="diniyyah">
+            Diniyyah
+          </button>
+          <button class="btn btn-secondary filter-btn" data-filter="english">
+            English
+          </button>
+          <button class="btn btn-secondary filter-btn" data-filter="it">
+            IT
+          </button>
+        </div>
+
+        <!-- Task Items -->
+        <div class="row task-items">
+          <div class="col-sm-4 task-item" data-category="diniyyah">
             <div class="img-wrapper">
-              <img src="assets/imgs/it.jpg" alt="" />
+              <img src="assets/imgs/carousel.jpg" alt="Diniyyah Task" />
               <div class="overlay">
                 <div class="overlay-infos">
-                  <h5>Project IT</h5>
-                  <a href="https://github.com/daffa-fawwaz?tab=repositories"
-                    ><i class="ti-link"></i
-                  ></a>
+                  <h5>Carousel Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/14CoGfB_yVNqKW-TfrVzc3errDWVpRKJF?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 task-item" data-category="diniyyah">
             <div class="img-wrapper">
-              <img src="assets/imgs/diniyyah.jpg" alt="" />
+              <img src="assets/imgs/presentation.jpg" alt="Diniyyah Task" />
               <div class="overlay">
                 <div class="overlay-infos">
-                  <h5>Diniyyah Task</h5>
+                  <h5>Presentasi Task</h5>
                   <a
-                    href="https://drive.google.com/drive/folders/1ZHqJNKk5Zo2yxjpOui4H9Y-TMOwJZtHy?usp=drive_link"
-                    ><i class="ti-link"></i
-                  ></a>
+                    href="https://drive.google.com/drive/folders/1GRftIO5YM09KRlkxkRZBUKckZdwbKe8R?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 task-item" data-category="diniyyah">
             <div class="img-wrapper">
-              <img src="assets/imgs/english.jpg" alt="" />
+              <img src="assets/imgs/ceramah.jpg" alt="Diniyyah Task" />
               <div class="overlay">
                 <div class="overlay-infos">
-                  <h5>English Task</h5>
+                  <h5>Ceramah Task</h5>
                   <a
-                    href="https://drive.google.com/drive/folders/1NZluRhkkkOXpYxIX_HFowhqW8-iooQRc?usp=drive_link"
-                    ><i class="ti-link"></i
-                  ></a>
+                    href="https://drive.google.com/drive/folders/1lkNmK9bF9HB2W339nRIvqHRXNm0-yLZE?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="diniyyah">
+            <div class="img-wrapper">
+              <img src="assets/imgs/poster.jpg" alt="Diniyyah Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Poster Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/19bgDZqOAai78sIo5ELE7s4gkCX_u-AKp?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="diniyyah">
+            <div class="img-wrapper">
+              <img src="assets/imgs/mindmap.jpg" alt="Diniyyah Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Mindmaping Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/14Y2PQQZQ3tkpQF3pwr8VmqIX5K3e70nE?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="diniyyah">
+            <div class="img-wrapper">
+              <img src="assets/imgs/ebook.jpg" alt="Diniyyah Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>E-Book Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/1VtjgO_9_Y7Cnz95nwRDYEOf01g3eue5a?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ENGLISH -->
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/podcast.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Podcast Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/u/0/folders/1qrFm_AlLv1JrgIqVeUxaUgRwNAnOiZ8g"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/news.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>News Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/1-DG0B6oXH6PSq48JkVn3qk59AKvvmtcw"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/geothermal.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Geothermal Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/1oLdXgkE7Ebcfi8mDGFyW1ITcI1oFH0zT"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/narrative.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Narrative story Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/10pPz-RP-8fBqrrgE5NzDiGthjX0-h_AJ"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/explant.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Narrative explanation Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/1cCs3OXK1WktGPT3OPi1TupJScvPYUb-s?usp=sharing"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/argument.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Argumentative Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/1XlHTVfG_5kChefCJG6dTCVOrDmaQnFec"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/poster.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Poster Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/u/0/folders/1duf0yv5VOPCTd-c6cQ_4fcxqGoJ74WFk"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/qwuotes.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Quotes Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/11CcCr7nx5b13kHKVA2_6hkjKvj9BSPxt"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 task-item" data-category="english">
+            <div class="img-wrapper">
+              <img src="assets/imgs/motivation.jpg" alt="English Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Motivation Task</h5>
+                  <a
+                    href="https://drive.google.com/drive/folders/1uBoSwnUCJ_MZOGTlrMOrXNklLu-uVyyl?hl=id"
+                  >
+                    <i class="ti-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- IT -->
+          <div class="col-sm-4 task-item" data-category="it">
+            <div class="img-wrapper">
+              <img src="assets/imgs/it.jpg" alt="IT Task" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>IT Task</h5>
+                  <a href="https://github.com/daffa-fawwaz?tab=repositories">
+                    <i class="ti-link"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -304,7 +520,6 @@
         </div>
       </div>
     </section>
-    <!-- End of portfolio section -->
 
     <!-- Contact Section -->
     <section id="contact" class="position-relative section">
